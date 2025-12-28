@@ -1,0 +1,126 @@
+.wrapper {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  z-index: 9999;
+}
+
+/* Shared */
+.action {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+}
+
+.icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+
+.phone {
+  background: #0f766e;
+}
+
+.whatsapp {
+  background: #22c55e;
+}
+
+/* Hover label */
+.label {
+  position: absolute;
+  right: 70px;
+  background: #0f172a;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateX(10px);
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+/* Hover effect */
+.action:hover .label {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.action:hover .icon {
+  transform: scale(1.08);
+}
+.wrapper {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  z-index: 9999;
+}
+
+/* Shared */
+.action {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+}
+
+.icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+
+.phone {
+  background: #0f766e;
+}
+
+.whatsapp {
+  background: #22c55e;
+}
+
+/* Hover label */
+.label {
+  position: absolute;
+  right: 70px;
+  background: #0f172a;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateX(10px);
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+/* Hover effect */
+.action:hover .label {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.action:hover .icon {
+  transform: scale(1.08);
+}

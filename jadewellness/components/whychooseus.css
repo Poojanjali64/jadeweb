@@ -1,0 +1,95 @@
+.why-section {
+  padding: 100px 0;
+  background: #f7fbfa;
+}
+
+.why-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+/* GLASS CARD */
+.why-glass {
+  backdrop-filter: blur(18px);
+  background: rgba(20, 70, 80, 0.35);
+  border-radius: 28px;
+  padding: 40px;
+  color: #fff;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+}
+
+/* FEATURE ROW */
+.why-feature {
+  display: flex;
+  gap: 18px;
+  padding: 22px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.why-feature:last-child {
+  border-bottom: none;
+}
+
+.why-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.2);
+  display: grid;
+  place-items: center;
+}
+
+.why-icon svg {
+  width: 22px;
+  height: 22px;
+  color: white;
+}
+
+.why-feature h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.why-feature p {
+  margin: 4px 0 0;
+  opacity: 0.85;
+  font-size: 14px;
+}
+
+/* RIGHT SIDE */
+.why-content .why-tag {
+  color: #0bb3a3;
+  font-weight: 600;
+}
+
+.why-content h2 {
+  font-size: 42px;
+  margin: 14px 0;
+}
+
+.why-content p {
+  color: #555;
+  max-width: 460px;
+}
+
+/* STATS */
+.why-stats {
+  display: flex;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.why-stats strong {
+  font-size: 34px;
+  color: #0b3a40;
+}
+
+.why-stats span {
+  display: block;
+  margin-top: 4px;
+  color: #666;
+}

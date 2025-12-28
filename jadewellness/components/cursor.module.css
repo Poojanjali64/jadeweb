@@ -1,0 +1,44 @@
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: rgba(15, 118, 110, 0.6);
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition:
+    width 0.25s ease,
+    height 0.25s ease,
+    background 0.25s ease,
+    opacity 0.25s ease,
+    transform 0.12s linear;
+  z-index: 99999;
+}
+
+/* Hover effect */
+.hover {
+  width: 44px;
+  height: 44px;
+  background: rgba(15, 118, 110, 0.25);
+}
+
+/* Scroll effect */
+.scroll {
+  opacity: 0.3;
+  transform: scale(0.8);
+}
+.cursor {
+  background: rgba(15, 118, 110, 0.25);
+  backdrop-filter: blur(6px);
+}
+.cursor-glow {
+  position: fixed;
+  width: 22px;
+  height: 22px;
+  background: rgba(61,214,198,0.35);
+  border-radius: 50%;
+  pointer-events: none;
+  mix-blend-mode: screen;
+}

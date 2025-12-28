@@ -1,0 +1,26 @@
+.socials {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  display: flex;
+  gap: 16px;
+  z-index: 9999;
+}
+
+.socials a {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #0f766e;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.25s ease;
+}
+
+.socials a:hover {
+  transform: scale(1.12);
+  background: #0d9488;
+}
