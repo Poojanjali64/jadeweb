@@ -32,7 +32,6 @@ export default function Hero() {
         {/* RIGHT IMAGE COLLAGE */}
         <div className={styles.collage}>
           {[
-            "iv.jpg",
             "acupuncture.jpg",
             "oxygen.jpg",
             "sauna.jpg",

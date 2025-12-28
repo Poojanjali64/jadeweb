@@ -1,9 +1,15 @@
 .navbar {
-  background: #fff8ef;
   position: sticky;
   top: 0;
   z-index: 1000;
+
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
 }
+
 
 .container {
   max-width: 1200px;
